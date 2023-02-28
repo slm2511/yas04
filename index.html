@@ -6,14 +6,8 @@
 <title>Сайт Светы slm2511</title>
 </head>
 <body>
-<!--Создаём таблицу контейнер, которой задаём следующее
-оформление:
-border="1" - рамка вокруг контейнера. Увеличив число, можно увеличить толщину рамки.
-align="center" - размещаем контейнер по центру экрана.
-rules="rows" - убираем двойную рамку.
-style="width:60%;" - добавляем стилевое свойства, делающее
-контейнер и весь сайт "резиновым".
-Сделать полноценный адаптивный дизайн, этим способом невозможно.-->
+     <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
+
 <table
 border="1"
 align="center"
@@ -25,15 +19,6 @@ style="width:60%;">
 <td>
 <!--ШАПКА САЙТА-->
 
-<!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
-Оформление:
-border="3" - двойная рамка толщиной в 2px
-background="images/as01.jpg" - картинка в шапке сайта, если требуется.
-Адрес картинки вы должны вставить свой.
-bgcolor="#7FFFD4" - фоновый цвет в шапке, если нет картинки.
-cellpadding="10" - отступ содержимого от рамки не менее 10px.
-style="width:100%; border-radius:10px;" - добавляем "резиновость"
-и закругляем уголки рамки-->
 <table
 border="3"
 background="images/Jtb6rE.jpg"
@@ -52,38 +37,7 @@ style="width:100%; border-radius:10px;">
 </tr>
 </table>
 
-<!--ОСНОВНОЙ КОНТЕНТ-->
-
-<!--В этой же ячейке контейнера создаём ещё одну таблицу
-для основного контента.
-Оформление как и в предыдущей таблице-->
-
-<table
-border="3"
-bgcolor="#FFC0CB"
-cellpadding="20"
-style="width:100%; border-radius:10px;">
-<!--Создаём строку-->
-<tr>
-<!--Создаём ячейку
-Оформление:
-rowspan="2" - объединяем две ячейки в одну.
-Число объединяемых ячеек по числу ячеек в сайдбаре.
-style="width:80%" - основной контент занимает 80% всей площади,
-оставшиеся 20% для сайдбара-->
-<td
-rowspan="2"
-style="width:80%">
-
-<h2>Привет!</h2>
-<!--Начинаем абзац с красной строки-->
-<p style="text-indent:20px">
-Привет!</p>
-
-<p style="text-indent:20px">Это сайт для практики в сайтостроении :) :) :)
-</p>
-  
-<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, shrink-to-fit=no, viewport-fit=cover'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, shrink-to-fit=no, viewport-fit=cover'>
 <meta http-equiv='X-UA-Compatible' content='ie=edge'>
 <style>
    html,
@@ -125,6 +79,38 @@ style="width:80%">
       };
    </script>
   
+<!--ОСНОВНОЙ КОНТЕНТ-->
+
+<!--В этой же ячейке контейнера создаём ещё одну таблицу
+для основного контента.
+Оформление как и в предыдущей таблице-->
+
+<table
+border="3"
+bgcolor="#FFC0CB"
+cellpadding="20"
+style="width:100%; border-radius:10px;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку
+Оформление:
+rowspan="2" - объединяем две ячейки в одну.
+Число объединяемых ячеек по числу ячеек в сайдбаре.
+style="width:80%" - основной контент занимает 80% всей площади,
+оставшиеся 20% для сайдбара-->
+<td
+rowspan="2"
+style="width:80%">
+
+<h2>Привет!</h2>
+<!--Начинаем абзац с красной строки-->
+<p style="text-indent:20px">
+Привет!</p>
+
+<p style="text-indent:20px">Это сайт для практики в сайтостроении :) :) :)
+</p>
+  
+ 
 <!--Закрываем ячейку-->
 </td>
 
